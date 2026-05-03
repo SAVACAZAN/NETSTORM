@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Recordings (too large for git)
+tests/differential/recordings/*.nsrec
+
+# Compiled binaries
+*.obj
+*.dll
+*.exe
+*.pdb
+*.lib
+*.ilk
+
+# Test images
+*.ppm
+*.pgm
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated/extracted assets (regenerable via extract_assets.py)
+extracted/
+
+# Junction (Windows symlink to game files)
+netstorm/
+
+# Backups
+*.bak
+*.bak.*
+
+# Logs
+*.log
+trace.txt

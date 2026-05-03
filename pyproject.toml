@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "netstorm-py"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "raylib>=5.0.0",     # rendering
+    "numpy>=1.26",        # float32 math parity
+    "construct>=2.10",    # declarative binary parsing (assets)
+    "pytest>=8.0",
+    "pytest-benchmark",
+]
+
+[project.optional-dependencies]
+harness = [
+    "pywin32",            # ReadProcessMemory for live recording
+    "psutil",             # process discovery
+]
+dev = [
+    "ruff",
+    "mypy",
+]
+
+[project.scripts]
+netstorm = "netstorm.main:main"
+ns-record = "harness.record:main"
+ns-replay = "harness.replay:main"
+ns-compare = "harness.compare:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/netstorm", "harness"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+
+[tool.ruff]
+line-length = 100
+src = ["src", "harness"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true

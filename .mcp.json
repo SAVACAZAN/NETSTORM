@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ghidra": {
+      "command": "C:\\Users\\Adi\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "args": ["C:\\Users\\Adi\\Desktop\\work\\ghidra-mcp\\server.py"]
+    },
+    "binary-ninja-mcp": {
+      "command": "npx",
+      "args": ["-y", "binary-ninja-mcp", "--host", "localhost", "--port", "9009"]
+    }
+  }
+}
