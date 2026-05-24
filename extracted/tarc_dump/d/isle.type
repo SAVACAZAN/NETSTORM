@@ -1,0 +1,139 @@
+typename Isle
+
+typeflags surface default_hotspot island predictable not_selectable dontSave;
+{
+	zorder = "zoISLAND";
+}
+
+// Filled pieces
+AA01 : default: "rgrass.gif" #0 ;
+AA02 : : "rgrass.gif" #1 ;
+AA03 : : "rgrass.gif" #2 ;
+AA04 : : "rgrass.gif" #3 ;
+AA05 : : "rgrass.gif" #4 ;
+AA06 : : "rgrass.gif" #5 ;
+
+// Inside Corners
+AB01 : rim fringe  : "risle.gif" #17 ;
+AB02 : rim fringe  : "risle.gif" #29 ;
+AC01 : rim : "risle.gif" #33 ;
+AC02 : rim : "risle.gif" #34 ;
+AD01 : rim : "risle.gif" #35 ;
+AD02 : rim : "risle.gif" #36 ;
+AE01 : rim fringe : "risle.gif" #18 ;
+AE02 : rim fringe : "risle.gif" #30 ;
+
+// Illegal 
+//AF01 : rim : "risle.gif" #20 ;
+//AF02 : rim : "risle.gif" #20 ;
+//AH01 : rim : "risle.gif" #20 ;
+//AI01 : rim : "risle.gif" #20 ;
+//AG01 : rim : "risle.gif" #20 ;
+
+// These three look completely wacky and illegal. Why would 
+// we need BD, BK, BE? - jfg
+// Left edge meeting other edge
+//BD01 : rim : "risle.gif" #19 ;
+//BK01 : rim fringe : "risle.gif" #16 ;
+//BE01 : rim fringe : "risle.gif" #16 ;
+
+// Left Edge
+BF01 : rim : "risle.gif" #00 ;
+BF02 : rim : "risle.gif" #01 ;
+BF03 : rim : "risle.gif" #02 ;
+BF04 : rim : "risle.gif" #03 ;
+BF05 : rim : "risle.gif" #04 ;
+
+// Top Edge
+
+// These two are also wacky and should never be needed.
+//CJ01 : rim : "risle.gif" #19 ;
+//CK01 : rim : "risle.gif" #20 ;
+
+CG01 : rim : "risle.gif" #05 ;
+CG02 : rim : "risle.gif" #06 ;
+CG03 : rim : "risle.gif" #07 ;
+CG04 : rim : "risle.gif" #08 ;
+CG05 : rim : "risle.gif" #09 ;
+
+// Right edge meeting other edge
+// These two are also wacky and should never be needed.
+//DK01 : rim : "risle.gif" #20 ;
+//DJ01 : rim fringe  : "risle.gif" #15 ;
+
+// Right Edge
+DH01 : rim : "risle.gif" #10 ;
+DH02 : rim : "risle.gif" #11 ;
+DH03 : rim : "risle.gif" #12 ;
+DH04 : rim : "risle.gif" #13 ;
+DH05 : rim : "risle.gif" #14 ;
+
+// These two are also wacky and should never be needed.
+//ED01 : rim fringe : "risle.gif" #15 ;
+//EK01 : rim fringe : "risle.gif" #16 ;
+
+// Bottom Edge
+EI01 : rim fringe : "risle.gif" #21 ;
+EI02 : rim fringe : "risle.gif" #22 ;
+EI03 : rim fringe : "risle.gif" #23 ;
+EI04 : rim fringe : "risle.gif" #24 ;
+EI05 : rim fringe : "risle.gif" #25 ;
+EI06 : rim fringe : "risle.gif" #26 ;
+
+// Outside Corners
+// Top Left
+FL01 : rim : "risle.gif" #19 ;
+FL02 : rim : "risle.gif" #31 ;
+
+// Top Right
+GM01 : rim : "risle.gif" #20 ;
+GM02 : rim : "risle.gif" #32 ;
+
+// Bottom Right
+HN01 : rim fringe : "risle.gif" #15 ;
+HN02 : rim fringe : "risle.gif" #27 ;
+
+// Bottom Left
+IO01 : rim fringe : "risle.gif" #16 ;
+IO02 : rim fringe : "risle.gif" #28 ;
+
+// This is nothing but a placeholder for the
+// island terrain scrambler. -Ken
+JJ00 : : "rgrass.gif" #47 ;
+
+AA00 : : "rgrass.gif" #47 ;
+AA00 : : "rgrass.gif" #48 ;
+AA00 : : "rgrass.gif" #49 ;
+AA00 : : "rgrass.gif" #50 ;
+AA00 : : "rgrass.gif" #51 ;
+AA00 : : "rgrass.gif" #52 ;
+AA00 : : "rgrass.gif" #53 ;
+AA00 : : "rgrass.gif" #54 ;
+AA00 : : "rgrass.gif" #55 ;
+AA00 : : "rgrass.gif" #56 ;
+AA00 : : "rgrass.gif" #57 ;
+AA00 : : "rgrass.gif" #58 ;
+AA00 : : "rgrass.gif" #59 ;
+AA00 : : "rgrass.gif" #60 ;
+AA00 : : "rgrass.gif" #61 ;
+AA00 : : "rgrass.gif" #62 ;
+AA00 : : "rgrass.gif" #63 ;
+AA00 : : "rgrass.gif" #64 ;
+AA00 : : "rgrass.gif" #65 ;
+AA00 : : "rgrass.gif" #66 ;
+AA00 : : "rgrass.gif" #67 ;
+AA00 : : "rgrass.gif" #68 ;
+AA00 : : "rgrass.gif" #69 ;
+AA00 : : "rgrass.gif" #70 ;
+AA00 : : "rgrass.gif" #71 ;
+AA00 : : "rgrass.gif" #72 ;
+AA00 : : "rgrass.gif" #73 ;
+AA00 : : "rgrass.gif" #74 ;
+AA00 : : "rgrass.gif" #75 ;
+AA00 : : "rgrass.gif" #76 ;
+AA00 : : "rgrass.gif" #77 ;
+AA00 : : "rgrass.gif" #78 ;
+AA00 : : "rgrass.gif" #79 ;
+AA00 : : "rgrass.gif" #80 ;
+AA00 : : "rgrass.gif" #81 ;
+AA00 : : "rgrass.gif" #82 ;

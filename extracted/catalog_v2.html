@@ -1,0 +1,3252 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>NetStorm Sprites Catalog v2</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+       background: #1a1a1a; color: #e0e0e0; padding: 20px; }
+h1 { color: #ffaa00; border-bottom: 2px solid #ffaa00; padding-bottom: 10px; margin-bottom: 20px; }
+h2 { color: #ffcc00; margin-top: 30px; margin-bottom: 15px; }
+.stats { background: #2a2a2a; padding: 15px; border-radius: 6px; margin-bottom: 20px;
+         display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+.stats div { text-align: center; }
+.stats strong { color: #ffaa00; font-size: 1.5em; display: block; }
+.filter-bar { background: #2a2a2a; padding: 12px; border-radius: 6px;
+              margin-bottom: 20px; display: flex; gap: 10px; align-items: center; }
+.filter-bar input { padding: 8px; background: #1a1a1a; color: #e0e0e0;
+                    border: 1px solid #444; border-radius: 4px; flex: 1; }
+.filter-bar button { padding: 8px 16px; background: #ffaa00; color: #1a1a1a;
+                     border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.filter-bar button:hover { background: #ffcc00; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px; }
+.card { background: #2a2a2a; border-radius: 6px; overflow: hidden;
+        border: 1px solid #333; transition: border-color 0.2s; }
+.card:hover { border-color: #ffaa00; }
+.card-header { padding: 10px; background: #333; }
+.card-header h3 { color: #ffaa00; margin: 0; font-size: 1.1em; }
+.card-meta { font-size: 0.85em; color: #999; margin-top: 4px; }
+.card-img { padding: 10px; text-align: center; min-height: 80px; }
+.card-img img { max-width: 100%; max-height: 200px; image-rendering: pixelated;
+                background: #111; padding: 4px; border-radius: 4px; }
+.tag { display: inline-block; padding: 2px 8px; background: #444; border-radius: 12px;
+       font-size: 0.75em; margin-right: 4px; }
+.tag.huge { background: #c44; }
+.tag.large { background: #c84; }
+.tag.medium { background: #4a4; }
+.tag.small { background: #44a; }
+</style>
+</head>
+<body>
+<h1>NetStorm Sprites — Catalog Vizual v2 (toate cele 6252 sprite-uri)</h1>
+
+
+<div class="stats">
+  <div><strong>198</strong>grupuri</div>
+  <div><strong>6252</strong>frame-uri totale</div>
+  <div><strong>132</strong>grupuri mari (sprite-uri unități)</div>
+  <div><strong>187</strong>nume gif unice în .type files</div>
+</div>
+
+<div class="filter-bar">
+  <input type="text" id="search" placeholder="Filtrează după group ID, dimensiune... (ex: 22, 121x152)">
+  <button onclick="document.getElementById('search').value='';filter()">Reset</button>
+</div>
+
+<h2>🐘 Sprite-uri uriașe (>30k pixeli) (4 grupuri)</h2>
+<div class="grid">
+
+<div class="card" data-gid="22" data-size="399x79">
+  <div class="card-header">
+    <h3>Group 022</h3>
+    <div class="card-meta">
+      <span class="tag huge">399×79</span>
+      <span class="tag">71 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_022.png" target="_blank">
+      <img src="sprites_all/atlas_group_022.png" alt="Group 22" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="42" data-size="593x406">
+  <div class="card-header">
+    <h3>Group 042</h3>
+    <div class="card-meta">
+      <span class="tag huge">593×406</span>
+      <span class="tag">6 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_042.png" target="_blank">
+      <img src="sprites_all/atlas_group_042.png" alt="Group 42" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="123" data-size="399x79">
+  <div class="card-header">
+    <h3>Group 123</h3>
+    <div class="card-meta">
+      <span class="tag huge">399×79</span>
+      <span class="tag">71 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_123.png" target="_blank">
+      <img src="sprites_all/atlas_group_123.png" alt="Group 123" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="143" data-size="593x406">
+  <div class="card-header">
+    <h3>Group 143</h3>
+    <div class="card-meta">
+      <span class="tag huge">593×406</span>
+      <span class="tag">6 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_143.png" target="_blank">
+      <img src="sprites_all/atlas_group_143.png" alt="Group 143" loading="lazy">
+    </a>
+  </div>
+</div>
+
+</div>
+<h2>🐂 Sprite-uri mari (>5k pixeli — probabil unități/clădiri) (128 grupuri)</h2>
+<div class="grid">
+
+<div class="card" data-gid="1" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 001</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">35 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_001.png" target="_blank">
+      <img src="sprites_all/atlas_group_001.png" alt="Group 1" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="2" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 002</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">64 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_002.png" target="_blank">
+      <img src="sprites_all/atlas_group_002.png" alt="Group 2" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="3" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 003</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">18 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_003.png" target="_blank">
+      <img src="sprites_all/atlas_group_003.png" alt="Group 3" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="5" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 005</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_005.png" target="_blank">
+      <img src="sprites_all/atlas_group_005.png" alt="Group 5" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="6" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 006</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_006.png" target="_blank">
+      <img src="sprites_all/atlas_group_006.png" alt="Group 6" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="7" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 007</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_007.png" target="_blank">
+      <img src="sprites_all/atlas_group_007.png" alt="Group 7" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="8" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 008</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_008.png" target="_blank">
+      <img src="sprites_all/atlas_group_008.png" alt="Group 8" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="9" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 009</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_009.png" target="_blank">
+      <img src="sprites_all/atlas_group_009.png" alt="Group 9" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="12" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 012</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">60 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_012.png" target="_blank">
+      <img src="sprites_all/atlas_group_012.png" alt="Group 12" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="14" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 014</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_014.png" target="_blank">
+      <img src="sprites_all/atlas_group_014.png" alt="Group 14" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="15" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 015</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">26 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_015.png" target="_blank">
+      <img src="sprites_all/atlas_group_015.png" alt="Group 15" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="16" data-size="127x159">
+  <div class="card-header">
+    <h3>Group 016</h3>
+    <div class="card-meta">
+      <span class="tag large">127×159</span>
+      <span class="tag">8 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_016.png" target="_blank">
+      <img src="sprites_all/atlas_group_016.png" alt="Group 16" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="17" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 017</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">20 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_017.png" target="_blank">
+      <img src="sprites_all/atlas_group_017.png" alt="Group 17" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="18" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 018</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">8 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_018.png" target="_blank">
+      <img src="sprites_all/atlas_group_018.png" alt="Group 18" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="19" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 019</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">7 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_019.png" target="_blank">
+      <img src="sprites_all/atlas_group_019.png" alt="Group 19" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="38" data-size="78x79">
+  <div class="card-header">
+    <h3>Group 038</h3>
+    <div class="card-meta">
+      <span class="tag large">78×79</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_038.png" target="_blank">
+      <img src="sprites_all/atlas_group_038.png" alt="Group 38" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="39" data-size="117x192">
+  <div class="card-header">
+    <h3>Group 039</h3>
+    <div class="card-meta">
+      <span class="tag large">117×192</span>
+      <span class="tag">17 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_039.png" target="_blank">
+      <img src="sprites_all/atlas_group_039.png" alt="Group 39" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="41" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 041</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_041.png" target="_blank">
+      <img src="sprites_all/atlas_group_041.png" alt="Group 41" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="43" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 043</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_043.png" target="_blank">
+      <img src="sprites_all/atlas_group_043.png" alt="Group 43" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="44" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 044</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_044.png" target="_blank">
+      <img src="sprites_all/atlas_group_044.png" alt="Group 44" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="45" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 045</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_045.png" target="_blank">
+      <img src="sprites_all/atlas_group_045.png" alt="Group 45" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="46" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 046</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_046.png" target="_blank">
+      <img src="sprites_all/atlas_group_046.png" alt="Group 46" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="47" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 047</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_047.png" target="_blank">
+      <img src="sprites_all/atlas_group_047.png" alt="Group 47" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="48" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 048</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_048.png" target="_blank">
+      <img src="sprites_all/atlas_group_048.png" alt="Group 48" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="49" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 049</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_049.png" target="_blank">
+      <img src="sprites_all/atlas_group_049.png" alt="Group 49" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="50" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 050</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_050.png" target="_blank">
+      <img src="sprites_all/atlas_group_050.png" alt="Group 50" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="51" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 051</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">44 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_051.png" target="_blank">
+      <img src="sprites_all/atlas_group_051.png" alt="Group 51" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="52" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 052</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">36 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_052.png" target="_blank">
+      <img src="sprites_all/atlas_group_052.png" alt="Group 52" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="53" data-size="148x137">
+  <div class="card-header">
+    <h3>Group 053</h3>
+    <div class="card-meta">
+      <span class="tag large">148×137</span>
+      <span class="tag">42 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_053.png" target="_blank">
+      <img src="sprites_all/atlas_group_053.png" alt="Group 53" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="54" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 054</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">58 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_054.png" target="_blank">
+      <img src="sprites_all/atlas_group_054.png" alt="Group 54" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="55" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 055</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">32 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_055.png" target="_blank">
+      <img src="sprites_all/atlas_group_055.png" alt="Group 55" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="56" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 056</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_056.png" target="_blank">
+      <img src="sprites_all/atlas_group_056.png" alt="Group 56" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="57" data-size="127x127">
+  <div class="card-header">
+    <h3>Group 057</h3>
+    <div class="card-meta">
+      <span class="tag large">127×127</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_057.png" target="_blank">
+      <img src="sprites_all/atlas_group_057.png" alt="Group 57" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="58" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 058</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">58 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_058.png" target="_blank">
+      <img src="sprites_all/atlas_group_058.png" alt="Group 58" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="59" data-size="121x151">
+  <div class="card-header">
+    <h3>Group 059</h3>
+    <div class="card-meta">
+      <span class="tag large">121×151</span>
+      <span class="tag">26 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_059.png" target="_blank">
+      <img src="sprites_all/atlas_group_059.png" alt="Group 59" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="61" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 061</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">37 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_061.png" target="_blank">
+      <img src="sprites_all/atlas_group_061.png" alt="Group 61" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="63" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 063</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">132 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_063.png" target="_blank">
+      <img src="sprites_all/atlas_group_063.png" alt="Group 63" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="65" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 065</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">162 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_065.png" target="_blank">
+      <img src="sprites_all/atlas_group_065.png" alt="Group 65" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="66" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 066</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">20 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_066.png" target="_blank">
+      <img src="sprites_all/atlas_group_066.png" alt="Group 66" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="67" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 067</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">74 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_067.png" target="_blank">
+      <img src="sprites_all/atlas_group_067.png" alt="Group 67" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="68" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 068</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">46 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_068.png" target="_blank">
+      <img src="sprites_all/atlas_group_068.png" alt="Group 68" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="69" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 069</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">14 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_069.png" target="_blank">
+      <img src="sprites_all/atlas_group_069.png" alt="Group 69" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="70" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 070</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">202 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_070.png" target="_blank">
+      <img src="sprites_all/atlas_group_070.png" alt="Group 70" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="71" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 071</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_071.png" target="_blank">
+      <img src="sprites_all/atlas_group_071.png" alt="Group 71" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="72" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 072</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">10 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_072.png" target="_blank">
+      <img src="sprites_all/atlas_group_072.png" alt="Group 72" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="73" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 073</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">28 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_073.png" target="_blank">
+      <img src="sprites_all/atlas_group_073.png" alt="Group 73" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="74" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 074</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">34 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_074.png" target="_blank">
+      <img src="sprites_all/atlas_group_074.png" alt="Group 74" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="75" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 075</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">10 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_075.png" target="_blank">
+      <img src="sprites_all/atlas_group_075.png" alt="Group 75" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="76" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 076</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">42 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_076.png" target="_blank">
+      <img src="sprites_all/atlas_group_076.png" alt="Group 76" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="77" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 077</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_077.png" target="_blank">
+      <img src="sprites_all/atlas_group_077.png" alt="Group 77" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="78" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 078</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">6 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_078.png" target="_blank">
+      <img src="sprites_all/atlas_group_078.png" alt="Group 78" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="79" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 079</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">7 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_079.png" target="_blank">
+      <img src="sprites_all/atlas_group_079.png" alt="Group 79" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="80" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 080</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">30 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_080.png" target="_blank">
+      <img src="sprites_all/atlas_group_080.png" alt="Group 80" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="83" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 083</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">34 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_083.png" target="_blank">
+      <img src="sprites_all/atlas_group_083.png" alt="Group 83" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="84" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 084</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">20 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_084.png" target="_blank">
+      <img src="sprites_all/atlas_group_084.png" alt="Group 84" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="86" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 086</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">42 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_086.png" target="_blank">
+      <img src="sprites_all/atlas_group_086.png" alt="Group 86" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="88" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 088</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">336 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_088.png" target="_blank">
+      <img src="sprites_all/atlas_group_088.png" alt="Group 88" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="89" data-size="34x157">
+  <div class="card-header">
+    <h3>Group 089</h3>
+    <div class="card-meta">
+      <span class="tag large">34×157</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_089.png" target="_blank">
+      <img src="sprites_all/atlas_group_089.png" alt="Group 89" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="90" data-size="109x82">
+  <div class="card-header">
+    <h3>Group 090</h3>
+    <div class="card-meta">
+      <span class="tag large">109×82</span>
+      <span class="tag">88 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_090.png" target="_blank">
+      <img src="sprites_all/atlas_group_090.png" alt="Group 90" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="93" data-size="67x131">
+  <div class="card-header">
+    <h3>Group 093</h3>
+    <div class="card-meta">
+      <span class="tag large">67×131</span>
+      <span class="tag">23 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_093.png" target="_blank">
+      <img src="sprites_all/atlas_group_093.png" alt="Group 93" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="94" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 094</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">90 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_094.png" target="_blank">
+      <img src="sprites_all/atlas_group_094.png" alt="Group 94" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="95" data-size="97x107">
+  <div class="card-header">
+    <h3>Group 095</h3>
+    <div class="card-meta">
+      <span class="tag large">97×107</span>
+      <span class="tag">198 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_095.png" target="_blank">
+      <img src="sprites_all/atlas_group_095.png" alt="Group 95" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="98" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 098</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_098.png" target="_blank">
+      <img src="sprites_all/atlas_group_098.png" alt="Group 98" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="99" data-size="96x107">
+  <div class="card-header">
+    <h3>Group 099</h3>
+    <div class="card-meta">
+      <span class="tag large">96×107</span>
+      <span class="tag">90 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_099.png" target="_blank">
+      <img src="sprites_all/atlas_group_099.png" alt="Group 99" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="102" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 102</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">35 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_102.png" target="_blank">
+      <img src="sprites_all/atlas_group_102.png" alt="Group 102" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="103" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 103</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">64 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_103.png" target="_blank">
+      <img src="sprites_all/atlas_group_103.png" alt="Group 103" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="104" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 104</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">18 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_104.png" target="_blank">
+      <img src="sprites_all/atlas_group_104.png" alt="Group 104" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="106" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 106</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_106.png" target="_blank">
+      <img src="sprites_all/atlas_group_106.png" alt="Group 106" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="107" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 107</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_107.png" target="_blank">
+      <img src="sprites_all/atlas_group_107.png" alt="Group 107" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="108" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 108</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_108.png" target="_blank">
+      <img src="sprites_all/atlas_group_108.png" alt="Group 108" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="109" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 109</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_109.png" target="_blank">
+      <img src="sprites_all/atlas_group_109.png" alt="Group 109" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="110" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 110</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_110.png" target="_blank">
+      <img src="sprites_all/atlas_group_110.png" alt="Group 110" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="113" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 113</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">60 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_113.png" target="_blank">
+      <img src="sprites_all/atlas_group_113.png" alt="Group 113" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="115" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 115</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_115.png" target="_blank">
+      <img src="sprites_all/atlas_group_115.png" alt="Group 115" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="116" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 116</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">26 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_116.png" target="_blank">
+      <img src="sprites_all/atlas_group_116.png" alt="Group 116" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="117" data-size="127x159">
+  <div class="card-header">
+    <h3>Group 117</h3>
+    <div class="card-meta">
+      <span class="tag large">127×159</span>
+      <span class="tag">8 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_117.png" target="_blank">
+      <img src="sprites_all/atlas_group_117.png" alt="Group 117" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="118" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 118</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">20 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_118.png" target="_blank">
+      <img src="sprites_all/atlas_group_118.png" alt="Group 118" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="119" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 119</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">8 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_119.png" target="_blank">
+      <img src="sprites_all/atlas_group_119.png" alt="Group 119" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="120" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 120</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">7 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_120.png" target="_blank">
+      <img src="sprites_all/atlas_group_120.png" alt="Group 120" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="139" data-size="78x79">
+  <div class="card-header">
+    <h3>Group 139</h3>
+    <div class="card-meta">
+      <span class="tag large">78×79</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_139.png" target="_blank">
+      <img src="sprites_all/atlas_group_139.png" alt="Group 139" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="140" data-size="117x192">
+  <div class="card-header">
+    <h3>Group 140</h3>
+    <div class="card-meta">
+      <span class="tag large">117×192</span>
+      <span class="tag">17 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_140.png" target="_blank">
+      <img src="sprites_all/atlas_group_140.png" alt="Group 140" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="142" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 142</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_142.png" target="_blank">
+      <img src="sprites_all/atlas_group_142.png" alt="Group 142" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="144" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 144</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_144.png" target="_blank">
+      <img src="sprites_all/atlas_group_144.png" alt="Group 144" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="145" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 145</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_145.png" target="_blank">
+      <img src="sprites_all/atlas_group_145.png" alt="Group 145" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="146" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 146</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_146.png" target="_blank">
+      <img src="sprites_all/atlas_group_146.png" alt="Group 146" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="147" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 147</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_147.png" target="_blank">
+      <img src="sprites_all/atlas_group_147.png" alt="Group 147" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="148" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 148</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_148.png" target="_blank">
+      <img src="sprites_all/atlas_group_148.png" alt="Group 148" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="149" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 149</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_149.png" target="_blank">
+      <img src="sprites_all/atlas_group_149.png" alt="Group 149" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="150" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 150</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_150.png" target="_blank">
+      <img src="sprites_all/atlas_group_150.png" alt="Group 150" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="151" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 151</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_151.png" target="_blank">
+      <img src="sprites_all/atlas_group_151.png" alt="Group 151" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="152" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 152</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">44 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_152.png" target="_blank">
+      <img src="sprites_all/atlas_group_152.png" alt="Group 152" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="153" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 153</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">36 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_153.png" target="_blank">
+      <img src="sprites_all/atlas_group_153.png" alt="Group 153" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="154" data-size="148x137">
+  <div class="card-header">
+    <h3>Group 154</h3>
+    <div class="card-meta">
+      <span class="tag large">148×137</span>
+      <span class="tag">42 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_154.png" target="_blank">
+      <img src="sprites_all/atlas_group_154.png" alt="Group 154" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="155" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 155</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">58 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_155.png" target="_blank">
+      <img src="sprites_all/atlas_group_155.png" alt="Group 155" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="156" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 156</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">32 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_156.png" target="_blank">
+      <img src="sprites_all/atlas_group_156.png" alt="Group 156" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="157" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 157</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_157.png" target="_blank">
+      <img src="sprites_all/atlas_group_157.png" alt="Group 157" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="158" data-size="127x127">
+  <div class="card-header">
+    <h3>Group 158</h3>
+    <div class="card-meta">
+      <span class="tag large">127×127</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_158.png" target="_blank">
+      <img src="sprites_all/atlas_group_158.png" alt="Group 158" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="159" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 159</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">58 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_159.png" target="_blank">
+      <img src="sprites_all/atlas_group_159.png" alt="Group 159" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="160" data-size="121x151">
+  <div class="card-header">
+    <h3>Group 160</h3>
+    <div class="card-meta">
+      <span class="tag large">121×151</span>
+      <span class="tag">26 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_160.png" target="_blank">
+      <img src="sprites_all/atlas_group_160.png" alt="Group 160" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="162" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 162</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">37 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_162.png" target="_blank">
+      <img src="sprites_all/atlas_group_162.png" alt="Group 162" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="164" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 164</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">132 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_164.png" target="_blank">
+      <img src="sprites_all/atlas_group_164.png" alt="Group 164" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="166" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 166</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">162 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_166.png" target="_blank">
+      <img src="sprites_all/atlas_group_166.png" alt="Group 166" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="167" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 167</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">20 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_167.png" target="_blank">
+      <img src="sprites_all/atlas_group_167.png" alt="Group 167" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="168" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 168</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">74 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_168.png" target="_blank">
+      <img src="sprites_all/atlas_group_168.png" alt="Group 168" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="169" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 169</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">46 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_169.png" target="_blank">
+      <img src="sprites_all/atlas_group_169.png" alt="Group 169" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="170" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 170</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">14 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_170.png" target="_blank">
+      <img src="sprites_all/atlas_group_170.png" alt="Group 170" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="171" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 171</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">202 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_171.png" target="_blank">
+      <img src="sprites_all/atlas_group_171.png" alt="Group 171" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="172" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 172</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_172.png" target="_blank">
+      <img src="sprites_all/atlas_group_172.png" alt="Group 172" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="173" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 173</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">10 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_173.png" target="_blank">
+      <img src="sprites_all/atlas_group_173.png" alt="Group 173" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="174" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 174</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">28 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_174.png" target="_blank">
+      <img src="sprites_all/atlas_group_174.png" alt="Group 174" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="175" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 175</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">34 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_175.png" target="_blank">
+      <img src="sprites_all/atlas_group_175.png" alt="Group 175" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="176" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 176</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">10 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_176.png" target="_blank">
+      <img src="sprites_all/atlas_group_176.png" alt="Group 176" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="177" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 177</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">42 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_177.png" target="_blank">
+      <img src="sprites_all/atlas_group_177.png" alt="Group 177" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="178" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 178</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_178.png" target="_blank">
+      <img src="sprites_all/atlas_group_178.png" alt="Group 178" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="179" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 179</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">6 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_179.png" target="_blank">
+      <img src="sprites_all/atlas_group_179.png" alt="Group 179" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="180" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 180</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">7 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_180.png" target="_blank">
+      <img src="sprites_all/atlas_group_180.png" alt="Group 180" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="181" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 181</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">30 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_181.png" target="_blank">
+      <img src="sprites_all/atlas_group_181.png" alt="Group 181" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="184" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 184</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">34 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_184.png" target="_blank">
+      <img src="sprites_all/atlas_group_184.png" alt="Group 184" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="185" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 185</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">20 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_185.png" target="_blank">
+      <img src="sprites_all/atlas_group_185.png" alt="Group 185" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="187" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 187</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">42 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_187.png" target="_blank">
+      <img src="sprites_all/atlas_group_187.png" alt="Group 187" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="189" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 189</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">336 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_189.png" target="_blank">
+      <img src="sprites_all/atlas_group_189.png" alt="Group 189" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="190" data-size="34x157">
+  <div class="card-header">
+    <h3>Group 190</h3>
+    <div class="card-meta">
+      <span class="tag large">34×157</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_190.png" target="_blank">
+      <img src="sprites_all/atlas_group_190.png" alt="Group 190" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="191" data-size="109x82">
+  <div class="card-header">
+    <h3>Group 191</h3>
+    <div class="card-meta">
+      <span class="tag large">109×82</span>
+      <span class="tag">88 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_191.png" target="_blank">
+      <img src="sprites_all/atlas_group_191.png" alt="Group 191" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="194" data-size="67x131">
+  <div class="card-header">
+    <h3>Group 194</h3>
+    <div class="card-meta">
+      <span class="tag large">67×131</span>
+      <span class="tag">23 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_194.png" target="_blank">
+      <img src="sprites_all/atlas_group_194.png" alt="Group 194" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="195" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 195</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">90 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_195.png" target="_blank">
+      <img src="sprites_all/atlas_group_195.png" alt="Group 195" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="196" data-size="97x107">
+  <div class="card-header">
+    <h3>Group 196</h3>
+    <div class="card-meta">
+      <span class="tag large">97×107</span>
+      <span class="tag">198 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_196.png" target="_blank">
+      <img src="sprites_all/atlas_group_196.png" alt="Group 196" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="199" data-size="121x152">
+  <div class="card-header">
+    <h3>Group 199</h3>
+    <div class="card-meta">
+      <span class="tag large">121×152</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_199.png" target="_blank">
+      <img src="sprites_all/atlas_group_199.png" alt="Group 199" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="200" data-size="96x107">
+  <div class="card-header">
+    <h3>Group 200</h3>
+    <div class="card-meta">
+      <span class="tag large">96×107</span>
+      <span class="tag">90 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_200.png" target="_blank">
+      <img src="sprites_all/atlas_group_200.png" alt="Group 200" loading="lazy">
+    </a>
+  </div>
+</div>
+
+</div>
+<h2>🐈 Sprite-uri medii (>1k pixeli — proiectile/efecte) (20 grupuri)</h2>
+<div class="grid">
+
+<div class="card" data-gid="4" data-size="46x27">
+  <div class="card-header">
+    <h3>Group 004</h3>
+    <div class="card-meta">
+      <span class="tag medium">46×27</span>
+      <span class="tag">22 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_004.png" target="_blank">
+      <img src="sprites_all/atlas_group_004.png" alt="Group 4" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="20" data-size="63x63">
+  <div class="card-header">
+    <h3>Group 020</h3>
+    <div class="card-meta">
+      <span class="tag medium">63×63</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_020.png" target="_blank">
+      <img src="sprites_all/atlas_group_020.png" alt="Group 20" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="24" data-size="32x45">
+  <div class="card-header">
+    <h3>Group 024</h3>
+    <div class="card-meta">
+      <span class="tag medium">32×45</span>
+      <span class="tag">9 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_024.png" target="_blank">
+      <img src="sprites_all/atlas_group_024.png" alt="Group 24" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="25" data-size="41x45">
+  <div class="card-header">
+    <h3>Group 025</h3>
+    <div class="card-meta">
+      <span class="tag medium">41×45</span>
+      <span class="tag">9 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_025.png" target="_blank">
+      <img src="sprites_all/atlas_group_025.png" alt="Group 25" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="28" data-size="32x47">
+  <div class="card-header">
+    <h3>Group 028</h3>
+    <div class="card-meta">
+      <span class="tag medium">32×47</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_028.png" target="_blank">
+      <img src="sprites_all/atlas_group_028.png" alt="Group 28" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="29" data-size="74x39">
+  <div class="card-header">
+    <h3>Group 029</h3>
+    <div class="card-meta">
+      <span class="tag medium">74×39</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_029.png" target="_blank">
+      <img src="sprites_all/atlas_group_029.png" alt="Group 29" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="30" data-size="54x31">
+  <div class="card-header">
+    <h3>Group 030</h3>
+    <div class="card-meta">
+      <span class="tag medium">54×31</span>
+      <span class="tag">16 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_030.png" target="_blank">
+      <img src="sprites_all/atlas_group_030.png" alt="Group 30" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="31" data-size="64x49">
+  <div class="card-header">
+    <h3>Group 031</h3>
+    <div class="card-meta">
+      <span class="tag medium">64×49</span>
+      <span class="tag">6 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_031.png" target="_blank">
+      <img src="sprites_all/atlas_group_031.png" alt="Group 31" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="81" data-size="32x47">
+  <div class="card-header">
+    <h3>Group 081</h3>
+    <div class="card-meta">
+      <span class="tag medium">32×47</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_081.png" target="_blank">
+      <img src="sprites_all/atlas_group_081.png" alt="Group 81" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="91" data-size="39x60">
+  <div class="card-header">
+    <h3>Group 091</h3>
+    <div class="card-meta">
+      <span class="tag medium">39×60</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_091.png" target="_blank">
+      <img src="sprites_all/atlas_group_091.png" alt="Group 91" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="105" data-size="46x27">
+  <div class="card-header">
+    <h3>Group 105</h3>
+    <div class="card-meta">
+      <span class="tag medium">46×27</span>
+      <span class="tag">22 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_105.png" target="_blank">
+      <img src="sprites_all/atlas_group_105.png" alt="Group 105" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="121" data-size="63x63">
+  <div class="card-header">
+    <h3>Group 121</h3>
+    <div class="card-meta">
+      <span class="tag medium">63×63</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_121.png" target="_blank">
+      <img src="sprites_all/atlas_group_121.png" alt="Group 121" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="125" data-size="32x45">
+  <div class="card-header">
+    <h3>Group 125</h3>
+    <div class="card-meta">
+      <span class="tag medium">32×45</span>
+      <span class="tag">9 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_125.png" target="_blank">
+      <img src="sprites_all/atlas_group_125.png" alt="Group 125" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="126" data-size="41x45">
+  <div class="card-header">
+    <h3>Group 126</h3>
+    <div class="card-meta">
+      <span class="tag medium">41×45</span>
+      <span class="tag">9 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_126.png" target="_blank">
+      <img src="sprites_all/atlas_group_126.png" alt="Group 126" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="129" data-size="32x47">
+  <div class="card-header">
+    <h3>Group 129</h3>
+    <div class="card-meta">
+      <span class="tag medium">32×47</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_129.png" target="_blank">
+      <img src="sprites_all/atlas_group_129.png" alt="Group 129" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="130" data-size="74x39">
+  <div class="card-header">
+    <h3>Group 130</h3>
+    <div class="card-meta">
+      <span class="tag medium">74×39</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_130.png" target="_blank">
+      <img src="sprites_all/atlas_group_130.png" alt="Group 130" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="131" data-size="54x31">
+  <div class="card-header">
+    <h3>Group 131</h3>
+    <div class="card-meta">
+      <span class="tag medium">54×31</span>
+      <span class="tag">16 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_131.png" target="_blank">
+      <img src="sprites_all/atlas_group_131.png" alt="Group 131" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="132" data-size="64x49">
+  <div class="card-header">
+    <h3>Group 132</h3>
+    <div class="card-meta">
+      <span class="tag medium">64×49</span>
+      <span class="tag">6 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_132.png" target="_blank">
+      <img src="sprites_all/atlas_group_132.png" alt="Group 132" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="182" data-size="32x47">
+  <div class="card-header">
+    <h3>Group 182</h3>
+    <div class="card-meta">
+      <span class="tag medium">32×47</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_182.png" target="_blank">
+      <img src="sprites_all/atlas_group_182.png" alt="Group 182" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="192" data-size="39x60">
+  <div class="card-header">
+    <h3>Group 192</h3>
+    <div class="card-meta">
+      <span class="tag medium">39×60</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_192.png" target="_blank">
+      <img src="sprites_all/atlas_group_192.png" alt="Group 192" loading="lazy">
+    </a>
+  </div>
+</div>
+
+</div>
+<h2>🐀 Sprite-uri mici (UI/cursors/font) (46 grupuri)</h2>
+<div class="grid">
+
+<div class="card" data-gid="0" data-size="15x9">
+  <div class="card-header">
+    <h3>Group 000</h3>
+    <div class="card-meta">
+      <span class="tag small">15×9</span>
+      <span class="tag">130 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_000.png" target="_blank">
+      <img src="sprites_all/atlas_group_000.png" alt="Group 0" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="10" data-size="1x1">
+  <div class="card-header">
+    <h3>Group 010</h3>
+    <div class="card-meta">
+      <span class="tag small">1×1</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_010.png" target="_blank">
+      <img src="sprites_all/atlas_group_010.png" alt="Group 10" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="11" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 011</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">20 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_011.png" target="_blank">
+      <img src="sprites_all/atlas_group_011.png" alt="Group 11" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="13" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 013</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_013.png" target="_blank">
+      <img src="sprites_all/atlas_group_013.png" alt="Group 13" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="21" data-size="13x19">
+  <div class="card-header">
+    <h3>Group 021</h3>
+    <div class="card-meta">
+      <span class="tag small">13×19</span>
+      <span class="tag">10 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_021.png" target="_blank">
+      <img src="sprites_all/atlas_group_021.png" alt="Group 21" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="23" data-size="16x16">
+  <div class="card-header">
+    <h3>Group 023</h3>
+    <div class="card-meta">
+      <span class="tag small">16×16</span>
+      <span class="tag">38 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_023.png" target="_blank">
+      <img src="sprites_all/atlas_group_023.png" alt="Group 23" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="26" data-size="33x12">
+  <div class="card-header">
+    <h3>Group 026</h3>
+    <div class="card-meta">
+      <span class="tag small">33×12</span>
+      <span class="tag">16 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_026.png" target="_blank">
+      <img src="sprites_all/atlas_group_026.png" alt="Group 26" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="27" data-size="10x15">
+  <div class="card-header">
+    <h3>Group 027</h3>
+    <div class="card-meta">
+      <span class="tag small">10×15</span>
+      <span class="tag">80 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_027.png" target="_blank">
+      <img src="sprites_all/atlas_group_027.png" alt="Group 27" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="32" data-size="43x15">
+  <div class="card-header">
+    <h3>Group 032</h3>
+    <div class="card-meta">
+      <span class="tag small">43×15</span>
+      <span class="tag">83 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_032.png" target="_blank">
+      <img src="sprites_all/atlas_group_032.png" alt="Group 32" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="33" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 033</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">25 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_033.png" target="_blank">
+      <img src="sprites_all/atlas_group_033.png" alt="Group 33" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="34" data-size="12x15">
+  <div class="card-header">
+    <h3>Group 034</h3>
+    <div class="card-meta">
+      <span class="tag small">12×15</span>
+      <span class="tag">38 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_034.png" target="_blank">
+      <img src="sprites_all/atlas_group_034.png" alt="Group 34" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="35" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 035</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_035.png" target="_blank">
+      <img src="sprites_all/atlas_group_035.png" alt="Group 35" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="36" data-size="29x32">
+  <div class="card-header">
+    <h3>Group 036</h3>
+    <div class="card-meta">
+      <span class="tag small">29×32</span>
+      <span class="tag">37 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_036.png" target="_blank">
+      <img src="sprites_all/atlas_group_036.png" alt="Group 36" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="37" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 037</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_037.png" target="_blank">
+      <img src="sprites_all/atlas_group_037.png" alt="Group 37" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="40" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 040</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_040.png" target="_blank">
+      <img src="sprites_all/atlas_group_040.png" alt="Group 40" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="60" data-size="11x15">
+  <div class="card-header">
+    <h3>Group 060</h3>
+    <div class="card-meta">
+      <span class="tag small">11×15</span>
+      <span class="tag">29 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_060.png" target="_blank">
+      <img src="sprites_all/atlas_group_060.png" alt="Group 60" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="62" data-size="15x37">
+  <div class="card-header">
+    <h3>Group 062</h3>
+    <div class="card-meta">
+      <span class="tag small">15×37</span>
+      <span class="tag">12 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_062.png" target="_blank">
+      <img src="sprites_all/atlas_group_062.png" alt="Group 62" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="64" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 064</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_064.png" target="_blank">
+      <img src="sprites_all/atlas_group_064.png" alt="Group 64" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="82" data-size="5x5">
+  <div class="card-header">
+    <h3>Group 082</h3>
+    <div class="card-meta">
+      <span class="tag small">5×5</span>
+      <span class="tag">2 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_082.png" target="_blank">
+      <img src="sprites_all/atlas_group_082.png" alt="Group 82" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="85" data-size="14x15">
+  <div class="card-header">
+    <h3>Group 085</h3>
+    <div class="card-meta">
+      <span class="tag small">14×15</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_085.png" target="_blank">
+      <img src="sprites_all/atlas_group_085.png" alt="Group 85" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="96" data-size="16x22">
+  <div class="card-header">
+    <h3>Group 096</h3>
+    <div class="card-meta">
+      <span class="tag small">16×22</span>
+      <span class="tag">5 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_096.png" target="_blank">
+      <img src="sprites_all/atlas_group_096.png" alt="Group 96" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="97" data-size="31x30">
+  <div class="card-header">
+    <h3>Group 097</h3>
+    <div class="card-meta">
+      <span class="tag small">31×30</span>
+      <span class="tag">30 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_097.png" target="_blank">
+      <img src="sprites_all/atlas_group_097.png" alt="Group 97" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="100" data-size="21x15">
+  <div class="card-header">
+    <h3>Group 100</h3>
+    <div class="card-meta">
+      <span class="tag small">21×15</span>
+      <span class="tag">2 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_100.png" target="_blank">
+      <img src="sprites_all/atlas_group_100.png" alt="Group 100" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="101" data-size="15x9">
+  <div class="card-header">
+    <h3>Group 101</h3>
+    <div class="card-meta">
+      <span class="tag small">15×9</span>
+      <span class="tag">130 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_101.png" target="_blank">
+      <img src="sprites_all/atlas_group_101.png" alt="Group 101" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="111" data-size="1x1">
+  <div class="card-header">
+    <h3>Group 111</h3>
+    <div class="card-meta">
+      <span class="tag small">1×1</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_111.png" target="_blank">
+      <img src="sprites_all/atlas_group_111.png" alt="Group 111" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="112" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 112</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">20 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_112.png" target="_blank">
+      <img src="sprites_all/atlas_group_112.png" alt="Group 112" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="114" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 114</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">3 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_114.png" target="_blank">
+      <img src="sprites_all/atlas_group_114.png" alt="Group 114" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="122" data-size="13x19">
+  <div class="card-header">
+    <h3>Group 122</h3>
+    <div class="card-meta">
+      <span class="tag small">13×19</span>
+      <span class="tag">10 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_122.png" target="_blank">
+      <img src="sprites_all/atlas_group_122.png" alt="Group 122" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="124" data-size="16x16">
+  <div class="card-header">
+    <h3>Group 124</h3>
+    <div class="card-meta">
+      <span class="tag small">16×16</span>
+      <span class="tag">38 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_124.png" target="_blank">
+      <img src="sprites_all/atlas_group_124.png" alt="Group 124" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="127" data-size="33x12">
+  <div class="card-header">
+    <h3>Group 127</h3>
+    <div class="card-meta">
+      <span class="tag small">33×12</span>
+      <span class="tag">16 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_127.png" target="_blank">
+      <img src="sprites_all/atlas_group_127.png" alt="Group 127" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="128" data-size="10x15">
+  <div class="card-header">
+    <h3>Group 128</h3>
+    <div class="card-meta">
+      <span class="tag small">10×15</span>
+      <span class="tag">80 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_128.png" target="_blank">
+      <img src="sprites_all/atlas_group_128.png" alt="Group 128" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="133" data-size="43x15">
+  <div class="card-header">
+    <h3>Group 133</h3>
+    <div class="card-meta">
+      <span class="tag small">43×15</span>
+      <span class="tag">83 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_133.png" target="_blank">
+      <img src="sprites_all/atlas_group_133.png" alt="Group 133" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="134" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 134</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">25 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_134.png" target="_blank">
+      <img src="sprites_all/atlas_group_134.png" alt="Group 134" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="135" data-size="12x15">
+  <div class="card-header">
+    <h3>Group 135</h3>
+    <div class="card-meta">
+      <span class="tag small">12×15</span>
+      <span class="tag">38 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_135.png" target="_blank">
+      <img src="sprites_all/atlas_group_135.png" alt="Group 135" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="136" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 136</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_136.png" target="_blank">
+      <img src="sprites_all/atlas_group_136.png" alt="Group 136" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="137" data-size="29x32">
+  <div class="card-header">
+    <h3>Group 137</h3>
+    <div class="card-meta">
+      <span class="tag small">29×32</span>
+      <span class="tag">37 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_137.png" target="_blank">
+      <img src="sprites_all/atlas_group_137.png" alt="Group 137" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="138" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 138</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_138.png" target="_blank">
+      <img src="sprites_all/atlas_group_138.png" alt="Group 138" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="141" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 141</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_141.png" target="_blank">
+      <img src="sprites_all/atlas_group_141.png" alt="Group 141" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="161" data-size="11x15">
+  <div class="card-header">
+    <h3>Group 161</h3>
+    <div class="card-meta">
+      <span class="tag small">11×15</span>
+      <span class="tag">29 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_161.png" target="_blank">
+      <img src="sprites_all/atlas_group_161.png" alt="Group 161" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="163" data-size="15x37">
+  <div class="card-header">
+    <h3>Group 163</h3>
+    <div class="card-meta">
+      <span class="tag small">15×37</span>
+      <span class="tag">12 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_163.png" target="_blank">
+      <img src="sprites_all/atlas_group_163.png" alt="Group 163" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="165" data-size="15x15">
+  <div class="card-header">
+    <h3>Group 165</h3>
+    <div class="card-meta">
+      <span class="tag small">15×15</span>
+      <span class="tag">1 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_165.png" target="_blank">
+      <img src="sprites_all/atlas_group_165.png" alt="Group 165" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="183" data-size="5x5">
+  <div class="card-header">
+    <h3>Group 183</h3>
+    <div class="card-meta">
+      <span class="tag small">5×5</span>
+      <span class="tag">2 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_183.png" target="_blank">
+      <img src="sprites_all/atlas_group_183.png" alt="Group 183" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="186" data-size="14x15">
+  <div class="card-header">
+    <h3>Group 186</h3>
+    <div class="card-meta">
+      <span class="tag small">14×15</span>
+      <span class="tag">4 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_186.png" target="_blank">
+      <img src="sprites_all/atlas_group_186.png" alt="Group 186" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="197" data-size="16x22">
+  <div class="card-header">
+    <h3>Group 197</h3>
+    <div class="card-meta">
+      <span class="tag small">16×22</span>
+      <span class="tag">5 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_197.png" target="_blank">
+      <img src="sprites_all/atlas_group_197.png" alt="Group 197" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="198" data-size="31x30">
+  <div class="card-header">
+    <h3>Group 198</h3>
+    <div class="card-meta">
+      <span class="tag small">31×30</span>
+      <span class="tag">30 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_198.png" target="_blank">
+      <img src="sprites_all/atlas_group_198.png" alt="Group 198" loading="lazy">
+    </a>
+  </div>
+</div>
+
+
+<div class="card" data-gid="201" data-size="21x15">
+  <div class="card-header">
+    <h3>Group 201</h3>
+    <div class="card-meta">
+      <span class="tag small">21×15</span>
+      <span class="tag">2 frames</span>
+    </div>
+  </div>
+  <div class="card-img">
+    <a href="sprites_all/atlas_group_201.png" target="_blank">
+      <img src="sprites_all/atlas_group_201.png" alt="Group 201" loading="lazy">
+    </a>
+  </div>
+</div>
+
+</div>
+
+<script>
+function filter() {
+  const q = document.getElementById('search').value.toLowerCase();
+  for (const card of document.querySelectorAll('.card')) {
+    const gid = card.dataset.gid;
+    const size = card.dataset.size;
+    const match = !q || gid.includes(q) || size.includes(q);
+    card.style.display = match ? '' : 'none';
+  }
+}
+document.getElementById('search').addEventListener('input', filter);
+</script>
+</body>
+</html>

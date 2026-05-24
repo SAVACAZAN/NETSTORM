@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>NetStorm Maps</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #1a1a1a; color: #e0e0e0; padding: 20px; }
+h1 { color: #ffaa00; border-bottom: 2px solid #ffaa00; padding-bottom: 10px; margin-bottom: 20px; }
+.note { background: #332200; border-left: 4px solid #ffaa00; padding: 12px; margin-bottom: 20px;
+        border-radius: 4px; line-height: 1.5; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 20px; }
+.card { background: #2a2a2a; border-radius: 6px; overflow: hidden; border: 1px solid #333;
+        transition: transform 0.2s, border-color 0.2s; }
+.card:hover { transform: scale(1.02); border-color: #ffaa00; }
+.card h3 { padding: 10px 14px; background: #333; color: #ffcc00; font-size: 1em; }
+.card img { width: 100%; display: block; image-rendering: pixelated; }
+</style>
+</head>
+<body>
+<h1>NetStorm — Toate mapele (.fort) randate izometric (24 hărți)</h1>
+
+<div class="note">
+<strong>Note tehnice:</strong> Coloraje sunt heuristice (apa = albastru, sand = bej, restul = hash deterministic).<br>
+Maparea reală <code>tile_id</code> → sprite-ul corespunzător va fi confirmată după extragere registry SHP.<br>
+Format <code>.fort</code>: header 62B + grid 16×16×3B la offset <code>0x42</code> + records post-grid (length-prefixed).<br>
+Click pe imagine pentru full-size.
+</div>
+
+<div class="grid">
+<div class="card"><h3>breakingthrough</h3><a href="maps/breakingthrough.png" target="_blank"><img src="maps/breakingthrough.png" alt="breakingthrough" loading="lazy"></a></div>
+<div class="card"><h3>bridgethegap</h3><a href="maps/bridgethegap.png" target="_blank"><img src="maps/bridgethegap.png" alt="bridgethegap" loading="lazy"></a></div>
+<div class="card"><h3>capturethepriest</h3><a href="maps/capturethepriest.png" target="_blank"><img src="maps/capturethepriest.png" alt="capturethepriest" loading="lazy"></a></div>
+<div class="card"><h3>demostormrages</h3><a href="maps/demostormrages.png" target="_blank"><img src="maps/demostormrages.png" alt="demostormrages" loading="lazy"></a></div>
+<div class="card"><h3>dissolvedalliance</h3><a href="maps/dissolvedalliance.png" target="_blank"><img src="maps/dissolvedalliance.png" alt="dissolvedalliance" loading="lazy"></a></div>
+<div class="card"><h3>enemyterritory</h3><a href="maps/enemyterritory.png" target="_blank"><img src="maps/enemyterritory.png" alt="enemyterritory" loading="lazy"></a></div>
+<div class="card"><h3>finalconfrontation</h3><a href="maps/finalconfrontation.png" target="_blank"><img src="maps/finalconfrontation.png" alt="finalconfrontation" loading="lazy"></a></div>
+<div class="card"><h3>fragilefortune</h3><a href="maps/fragilefortune.png" target="_blank"><img src="maps/fragilefortune.png" alt="fragilefortune" loading="lazy"></a></div>
+<div class="card"><h3>guardmyback</h3><a href="maps/guardmyback.png" target="_blank"><img src="maps/guardmyback.png" alt="guardmyback" loading="lazy"></a></div>
+<div class="card"><h3>masterofwhirligigs</h3><a href="maps/masterofwhirligigs.png" target="_blank"><img src="maps/masterofwhirligigs.png" alt="masterofwhirligigs" loading="lazy"></a></div>
+<div class="card"><h3>MyOnlineGame</h3><a href="maps/MyOnlineGame.png" target="_blank"><img src="maps/MyOnlineGame.png" alt="MyOnlineGame" loading="lazy"></a></div>
+<div class="card"><h3>rainvsrain</h3><a href="maps/rainvsrain.png" target="_blank"><img src="maps/rainvsrain.png" alt="rainvsrain" loading="lazy"></a></div>
+<div class="card"><h3>rawpower</h3><a href="maps/rawpower.png" target="_blank"><img src="maps/rawpower.png" alt="rawpower" loading="lazy"></a></div>
+<div class="card"><h3>runforit</h3><a href="maps/runforit.png" target="_blank"><img src="maps/runforit.png" alt="runforit" loading="lazy"></a></div>
+<div class="card"><h3>savetheisland</h3><a href="maps/savetheisland.png" target="_blank"><img src="maps/savetheisland.png" alt="savetheisland" loading="lazy"></a></div>
+<div class="card"><h3>secretworkshop</h3><a href="maps/secretworkshop.png" target="_blank"><img src="maps/secretworkshop.png" alt="secretworkshop" loading="lazy"></a></div>
+<div class="card"><h3>subtledefense</h3><a href="maps/subtledefense.png" target="_blank"><img src="maps/subtledefense.png" alt="subtledefense" loading="lazy"></a></div>
+<div class="card"><h3>surrounded</h3><a href="maps/surrounded.png" target="_blank"><img src="maps/surrounded.png" alt="surrounded" loading="lazy"></a></div>
+<div class="card"><h3>tacticalcombat</h3><a href="maps/tacticalcombat.png" target="_blank"><img src="maps/tacticalcombat.png" alt="tacticalcombat" loading="lazy"></a></div>
+<div class="card"><h3>thenoose</h3><a href="maps/thenoose.png" target="_blank"><img src="maps/thenoose.png" alt="thenoose" loading="lazy"></a></div>
+<div class="card"><h3>thewarbegins</h3><a href="maps/thewarbegins.png" target="_blank"><img src="maps/thewarbegins.png" alt="thewarbegins" loading="lazy"></a></div>
+<div class="card"><h3>thunderingpower</h3><a href="maps/thunderingpower.png" target="_blank"><img src="maps/thunderingpower.png" alt="thunderingpower" loading="lazy"></a></div>
+<div class="card"><h3>totherescue</h3><a href="maps/totherescue.png" target="_blank"><img src="maps/totherescue.png" alt="totherescue" loading="lazy"></a></div>
+<div class="card"><h3>vicious</h3><a href="maps/vicious.png" target="_blank"><img src="maps/vicious.png" alt="vicious" loading="lazy"></a></div>
+</div>
+</body>
+</html>

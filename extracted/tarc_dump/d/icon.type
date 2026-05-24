@@ -1,0 +1,46 @@
+typename icon
+typeflags default_hotspot	;
+{
+        zorder = "zoISLAND";
+}
+
+A01     :               : "icons.gif" #00    ;
+A02     :               : "icons.gif" #01    ;
+A03     :               : "icons.gif" #02    ;
+A04     :               : "icons.gif" #03    ;
+A05     :               : "icons.gif" #04    ;
+A06     :               : "icons.gif" #05    ;
+A07     :               : "icons.gif" #06    ;
+A08     :               : "icons.gif" #07    ;
+A09     :               : "icons.gif" #08    ;
+A10     :               : "icons.gif" #09    ;
+A11     :               : "icons.gif" #10    ;
+A12     :               : "icons.gif" #11    ;
+A13     :               : "icons.gif" #12    ;		// this is actually the hit point icon for the demo
+A14     : default              : "icons.gif" #13    ;		// this is actually a little test trump 1x1
+
+B01     :               : "icons.gif" #14    ;
+B02     :               : "icons.gif" #15    ;
+B03     :               : "icons.gif" #16    ;
+B04     :               : "icons.gif" #17    ;
+B05     :               : "icons.gif" #18    ;
+B06     :               : "icons.gif" #19    ;
+B07     :               : "icons.gif" #20    ;
+B08     :               : "icons.gif" #21    ;
+B09     :               : "icons.gif" #22    ;
+B10     :               : "icons.gif" #23    ;
+
+C01     :               : "icons.gif" #14    ;
+C02     :               : "icons.gif" #15    ;
+C03     :               : "icons.gif" #16    ;
+C04     :               : "icons.gif" #17    ;
+C05     :               : "icons.gif" #18    ;
+C06     :               : "icons.gif" #19    ;
+C07     :               : "icons.gif" #20    ;
+C08     :               : "icons.gif" #21    ;
+C09     :               : "icons.gif" #22    ;
+C10     :               : "icons.gif" #23    ;
+C11     :               : "icons.gif" #24    ;
+C12     :               : "icons.gif" #25    ;
+C13     :               : "icons.gif" #26    ;
+C14     :               : "icons.gif" #27    ;

@@ -1,0 +1,23 @@
+typename bombParalyze constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description = "Paralysis";
+	class = "Defensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 2;	// Determines its probability class
+	range = 7;
+	cost = 1000;
+
+	activeSound = "paralysisGet.wav";
+	fireSound = "paralysisCast.wav";
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 : default baseframe : "spells.gif" #06  ;
+
+B01 : help : "b_obelisk.gif" #00;

@@ -1,0 +1,18 @@
+typename Residence constructor
+typeflags residence randframe yuckWalk dropBlocking ;
+{
+	description = "Residence";
+	class="Residence";
+	zorder = "zoBRIDGE";
+	foot_x = 4;
+	foot_y = 4;
+}
+
+P01 : default unlit : "residence.gif" #00;
+P02 : lit : "residence.gif" #01;
+P03 : unlit : "residence.gif" #02;
+P04 : lit : "residence.gif" #03;
+P05 : unlit : "residence.gif" #04;
+P06 : lit : "residence.gif" #05;
+
+A00 : help : "b_residence.GIF" #00;

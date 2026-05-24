@@ -1,0 +1,114 @@
+typename efarm constructor
+typeflags edgefarm matchframe dropBlocking walkBlocking mayDropOnRim;
+{
+	description="Edge Farm";
+	class="Defense";
+	theme = "sun";
+	level = 1;
+
+	zorder = "zoEDGEFARM"; 
+	foot_x = 1;
+	foot_y = 1;
+	damageEffect = 1;
+}
+
+// IMPORTANT! These frame counts are take PRECISELY from the isle.type
+// file. The program expects to be able to do a perfect matching between
+// the island frames and these frames. Of course, this means that the AA
+// frames needs filler, so I use rgrass.gif, and instead of efarm.gif
+// we're using efarm.gif. -Ken
+
+// Filled pieces
+AA01 : default: "rgrass.gif" #0 ;
+AA02 : : "rgrass.gif" #1 ;
+AA03 : : "rgrass.gif" #2 ;
+AA04 : : "rgrass.gif" #3 ;
+AA05 : : "rgrass.gif" #4 ;
+AA06 : : "rgrass.gif" #5 ;
+
+// Inside Corners
+AB01 : rim fringe  : "efarm.gif" #17 ;
+AB02 : rim fringe  : "efarm.gif" #29 ;
+AC01 : rim : "efarm.gif" #33 ;
+AC02 : rim : "efarm.gif" #34 ;
+AD01 : rim : "efarm.gif" #35 ;
+AD02 : rim : "efarm.gif" #36 ;
+AE01 : rim fringe : "efarm.gif" #18 ;
+AE02 : rim fringe : "efarm.gif" #30 ;
+
+// Illegal 
+//AF01 : rim : "efarm.gif" #20 ;
+//AF02 : rim : "efarm.gif" #20 ;
+//AH01 : rim : "efarm.gif" #20 ;
+//AI01 : rim : "efarm.gif" #20 ;
+//AG01 : rim : "efarm.gif" #20 ;
+
+// These three look completely wacky and illegal. Why would 
+// we need BD, BK, BE? - jfg
+// Left edge meeting other edge
+//BD01 : rim : "efarm.gif" #19 ;
+//BK01 : rim fringe : "efarm.gif" #16 ;
+//BE01 : rim fringe : "efarm.gif" #16 ;
+
+// Left Edge
+BF01 : rim : "efarm.gif" #00 ;
+BF02 : rim : "efarm.gif" #01 ;
+BF03 : rim : "efarm.gif" #02 ;
+BF04 : rim : "efarm.gif" #03 ;
+BF05 : rim : "efarm.gif" #04 ;
+
+// Top Edge
+
+// These two are also wacky and should never be needed.
+//CJ01 : rim : "efarm.gif" #19 ;
+//CK01 : rim : "efarm.gif" #20 ;
+
+CG01 : rim : "efarm.gif" #05 ;
+CG02 : rim : "efarm.gif" #06 ;
+CG03 : rim : "efarm.gif" #07 ;
+CG04 : rim : "efarm.gif" #08 ;
+CG05 : rim : "efarm.gif" #09 ;
+
+// Right edge meeting other edge
+// These two are also wacky and should never be needed.
+//DK01 : rim : "efarm.gif" #20 ;
+//DJ01 : rim fringe  : "efarm.gif" #15 ;
+
+// Right Edge
+DH01 : rim : "efarm.gif" #10 ;
+DH02 : rim : "efarm.gif" #11 ;
+DH03 : rim : "efarm.gif" #12 ;
+DH04 : rim : "efarm.gif" #13 ;
+DH05 : rim : "efarm.gif" #14 ;
+
+// These two are also wacky and should never be needed.
+//ED01 : rim fringe : "efarm.gif" #15 ;
+//EK01 : rim fringe : "efarm.gif" #16 ;
+
+// Bottom Edge
+EI01 : rim fringe help : "efarm.gif" #21 ;
+EI02 : rim fringe : "efarm.gif" #22 ;
+EI03 : rim fringe : "efarm.gif" #23 ;
+EI04 : rim fringe : "efarm.gif" #24 ;
+EI05 : rim fringe : "efarm.gif" #25 ;
+EI06 : rim fringe : "efarm.gif" #26 ;
+
+// Outside Corners
+// Top Left
+FL01 : rim : "efarm.gif" #19 ;
+FL02 : rim : "efarm.gif" #31 ;
+
+// Top Right
+GM01 : rim : "efarm.gif" #20 ;
+GM02 : rim : "efarm.gif" #32 ;
+
+// Bottom Right
+HN01 : rim fringe : "efarm.gif" #15 ;
+HN02 : rim fringe : "efarm.gif" #27 ;
+
+// Bottom Left
+IO01 : rim fringe : "efarm.gif" #16 ;
+IO02 : rim fringe : "efarm.gif" #28 ;
+
+
+PP00 : help : "b_edgefarm.GIF" #00;

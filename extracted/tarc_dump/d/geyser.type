@@ -1,0 +1,34 @@
+typename geyser constructor
+typeflags geyser dropBlocking shadow createsisland;
+{
+	description="Storm Geyser";
+    class="Source of Storm Power";
+	theme = "sun";
+	cost = 2000;
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 3;
+	foot_y = 3;
+	hotFootRatioX = 0.22;
+	hotFootRatioY = 0.22;
+}
+
+A00 : default : "geyser.gif" #00 : "geyser.gif" #17;
+A01 : : "geyser.gif" #01 ;
+A02 : : "geyser.gif" #02 ;
+A03 : : "geyser.gif" #03 ;
+A04 : : "geyser.gif" #04 ;
+A05 : : "geyser.gif" #05 ;
+A06 : : "geyser.gif" #06 ;
+A07 : : "geyser.gif" #07 ;
+A08 : : "geyser.gif" #08 ;
+A09 : : "geyser.gif" #09 ;
+A10 : : "geyser.gif" #10 ;
+A11 : : "geyser.gif" #11 ;
+A12 : : "geyser.gif" #12 ;
+A13 : : "geyser.gif" #13 ;
+A14 : : "geyser.gif" #14 ;
+A15 : : "geyser.gif" #15 ;
+A16 : : "geyser.gif" #16 ;
+
+P00 : help : "b_strmgysr.gif" #00  ;

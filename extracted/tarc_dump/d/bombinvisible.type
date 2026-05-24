@@ -1,0 +1,23 @@
+typename bombInvisible constructor
+typeflags default_hotspot bomb mayDropOnRim ;
+{
+	description="Invisibility";
+	class="Defensive Spell";
+
+	zorder = "zoEMPLACEMENTS";
+	foot_x = 1;
+	foot_y = 1;
+
+	level = 1;	// Determines its probability class
+	range = 7;
+	cost = 1000;
+
+	activeSound = "invisibilityGet.wav";
+	fireSound = "invisibilityCast.wav";
+}
+
+A00 : : "blank.gif" #0 ;
+
+B00 :  default baseframe : "spells.gif" #02  ;
+
+B01 : help : "b_obelisk.gif" #00;

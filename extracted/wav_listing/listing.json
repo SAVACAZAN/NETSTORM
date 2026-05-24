@@ -1,0 +1,1792 @@
+[
+  {
+    "name": "altarBurnCollapse.wav",
+    "size": 65863,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/altarBurnCollapse.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 65819,
+    "duration_sec": 2.985
+  },
+  {
+    "name": "ambient02.WAV",
+    "size": 40450,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/ambient02.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 40406,
+    "duration_sec": 1.832
+  },
+  {
+    "name": "apBuilding.wav",
+    "size": 19204,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/apBuilding.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19146,
+    "duration_sec": 0.868
+  },
+  {
+    "name": "apStart.wav",
+    "size": 33898,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/apStart.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 33840,
+    "duration_sec": 1.535
+  },
+  {
+    "name": "balloonDrop.wav",
+    "size": 12817,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/balloonDrop.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 12773,
+    "duration_sec": 0.579
+  },
+  {
+    "name": "balloonFlame.WAV",
+    "size": 23568,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/balloonFlame.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 23524,
+    "duration_sec": 1.067
+  },
+  {
+    "name": "balloonMove.wav",
+    "size": 14701,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/balloonMove.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 14657,
+    "duration_sec": 0.665
+  },
+  {
+    "name": "balloonPickUp.wav",
+    "size": 15417,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/balloonPickUp.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15373,
+    "duration_sec": 0.697
+  },
+  {
+    "name": "beamOver-1000.wav",
+    "size": 37649,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/beamOver-1000.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 37605,
+    "duration_sec": 1.705
+  },
+  {
+    "name": "beamOver03.WAV",
+    "size": 40093,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/beamOver03.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 40049,
+    "duration_sec": 1.816
+  },
+  {
+    "name": "bell.wav",
+    "size": 69420,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bell.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 69353,
+    "duration_sec": 3.145
+  },
+  {
+    "name": "bridgecrack.wav",
+    "size": 26938,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bridgecrack.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 26894,
+    "duration_sec": 1.22
+  },
+  {
+    "name": "bridgeFall.WAV",
+    "size": 72518,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bridgeFall.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 72474,
+    "duration_sec": 3.287
+  },
+  {
+    "name": "bridgeHardenCast.wav",
+    "size": 26154,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bridgeHardenCast.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 25918,
+    "duration_sec": 1.175
+  },
+  {
+    "name": "bridgeHardenGet.wav",
+    "size": 19500,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bridgeHardenGet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19456,
+    "duration_sec": 0.882
+  },
+  {
+    "name": "buildDone.wav",
+    "size": 22430,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/buildDone.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 22371,
+    "duration_sec": 1.015
+  },
+  {
+    "name": "bulfDrop.WAV",
+    "size": 19174,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfDrop.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19129,
+    "duration_sec": 0.868
+  },
+  {
+    "name": "bulfHurt.wav",
+    "size": 27459,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfHurt.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 27415,
+    "duration_sec": 1.243
+  },
+  {
+    "name": "bulfMove.WAV",
+    "size": 15224,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfMove.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15179,
+    "duration_sec": 0.688
+  },
+  {
+    "name": "bulfPickUp.WAV",
+    "size": 12278,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfPickUp.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 12233,
+    "duration_sec": 0.555
+  },
+  {
+    "name": "bulfWalk1.WAV",
+    "size": 7244,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfWalk1.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 7200,
+    "duration_sec": 0.327
+  },
+  {
+    "name": "bulfWalk2.WAV",
+    "size": 6828,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfWalk2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 6784,
+    "duration_sec": 0.308
+  },
+  {
+    "name": "bulfWalk3.WAV",
+    "size": 5996,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfWalk3.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 5952,
+    "duration_sec": 0.27
+  },
+  {
+    "name": "bulfWalk4.WAV",
+    "size": 9186,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfWalk4.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 9141,
+    "duration_sec": 0.415
+  },
+  {
+    "name": "bulfWalk5.WAV",
+    "size": 7244,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/bulfWalk5.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 7200,
+    "duration_sec": 0.327
+  },
+  {
+    "name": "burning.wav",
+    "size": 93806,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/burning.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 93729,
+    "duration_sec": 4.251
+  },
+  {
+    "name": "button.wav",
+    "size": 3435,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/button.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 3187,
+    "duration_sec": 0.145
+  },
+  {
+    "name": "chainRattle23.WAV",
+    "size": 19109,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/chainRattle23.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19065,
+    "duration_sec": 0.865
+  },
+  {
+    "name": "chainRattle24.WAV",
+    "size": 30015,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/chainRattle24.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 29971,
+    "duration_sec": 1.359
+  },
+  {
+    "name": "chainRattle25.WAV",
+    "size": 20241,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/chainRattle25.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 20197,
+    "duration_sec": 0.916
+  },
+  {
+    "name": "chainRattle26.wav",
+    "size": 25339,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/chainRattle26.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 25295,
+    "duration_sec": 1.147
+  },
+  {
+    "name": "chainRattle27.WAV",
+    "size": 22454,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/chainRattle27.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 22410,
+    "duration_sec": 1.016
+  },
+  {
+    "name": "cloudDrop.wav",
+    "size": 14778,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/cloudDrop.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 14734,
+    "duration_sec": 0.668
+  },
+  {
+    "name": "cloudMove.wav",
+    "size": 14252,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/cloudMove.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 14208,
+    "duration_sec": 0.644
+  },
+  {
+    "name": "collapse.wav",
+    "size": 57293,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/collapse.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 57147,
+    "duration_sec": 2.592
+  },
+  {
+    "name": "crabSteal.WAV",
+    "size": 20903,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/crabSteal.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 20753,
+    "duration_sec": 0.941
+  },
+  {
+    "name": "decimationCast.wav",
+    "size": 15397,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/decimationCast.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15169,
+    "duration_sec": 0.688
+  },
+  {
+    "name": "decimationGet.wav",
+    "size": 19948,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/decimationGet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19904,
+    "duration_sec": 0.903
+  },
+  {
+    "name": "devastationCast.wav",
+    "size": 13122,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/devastationCast.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 12894,
+    "duration_sec": 0.585
+  },
+  {
+    "name": "devastationGet.wav",
+    "size": 18860,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/devastationGet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 18816,
+    "duration_sec": 0.853
+  },
+  {
+    "name": "dissolve.wav",
+    "size": 3310,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/dissolve.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 3252,
+    "duration_sec": 0.147
+  },
+  {
+    "name": "distantWindQuiet-3000.wav",
+    "size": 68258,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/distantWindQuiet-3000.wav",
+    "channels": 1,
+    "sample_rate": 6000,
+    "sample_width": 1,
+    "frames": 68214,
+    "duration_sec": 11.369
+  },
+  {
+    "name": "dropPiece-500.wav",
+    "size": 2244,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/dropPiece-500.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 2186,
+    "duration_sec": 0.099
+  },
+  {
+    "name": "dustDevilSpin-500.wav",
+    "size": 69619,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/dustDevilSpin-500.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 69575,
+    "duration_sec": 3.155
+  },
+  {
+    "name": "eagleScream-1500.wav",
+    "size": 51774,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/eagleScream-1500.wav",
+    "channels": 1,
+    "sample_rate": 22222,
+    "sample_width": 1,
+    "frames": 51717,
+    "duration_sec": 2.327
+  },
+  {
+    "name": "enemyIslandPreparing.wav",
+    "size": 50044,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/enemyIslandPreparing.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 50000,
+    "duration_sec": 2.268
+  },
+  {
+    "name": "enemyPriestCaptured.wav",
+    "size": 38776,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/enemyPriestCaptured.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 38731,
+    "duration_sec": 1.757
+  },
+  {
+    "name": "explodeSlot.wav",
+    "size": 9952,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/explodeSlot.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 9893,
+    "duration_sec": 0.449
+  },
+  {
+    "name": "explosion.wav",
+    "size": 34562,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/explosion.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 34503,
+    "duration_sec": 1.565
+  },
+  {
+    "name": "fireCrossbow.wav",
+    "size": 15076,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/fireCrossbow.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15031,
+    "duration_sec": 0.682
+  },
+  {
+    "name": "forRain2.WAV",
+    "size": 41714,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/forRain2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 41670,
+    "duration_sec": 1.89
+  },
+  {
+    "name": "forStorm2.WAV",
+    "size": 53362,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/forStorm2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 53317,
+    "duration_sec": 2.418
+  },
+  {
+    "name": "forSun2.WAV",
+    "size": 49710,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/forSun2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 49665,
+    "duration_sec": 2.252
+  },
+  {
+    "name": "forThunder2.WAV",
+    "size": 49168,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/forThunder2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 49124,
+    "duration_sec": 2.228
+  },
+  {
+    "name": "forWind2.WAV",
+    "size": 43290,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/forWind2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 43245,
+    "duration_sec": 1.961
+  },
+  {
+    "name": "getPiece-500.wav",
+    "size": 2244,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/getPiece-500.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 2186,
+    "duration_sec": 0.099
+  },
+  {
+    "name": "geyserMined1.WAV",
+    "size": 5626,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/geyserMined1.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 5582,
+    "duration_sec": 0.253
+  },
+  {
+    "name": "geyserMined2.WAV",
+    "size": 5880,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/geyserMined2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 5836,
+    "duration_sec": 0.265
+  },
+  {
+    "name": "geyserMined3.WAV",
+    "size": 6454,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/geyserMined3.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 6410,
+    "duration_sec": 0.291
+  },
+  {
+    "name": "geyserMined4.WAV",
+    "size": 4060,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/geyserMined4.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 4015,
+    "duration_sec": 0.182
+  },
+  {
+    "name": "geyserMined5.WAV",
+    "size": 6066,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/geyserMined5.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 6022,
+    "duration_sec": 0.273
+  },
+  {
+    "name": "geyserMined6.WAV",
+    "size": 8330,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/geyserMined6.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 8285,
+    "duration_sec": 0.376
+  },
+  {
+    "name": "golemDrop.wav",
+    "size": 19436,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/golemDrop.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19392,
+    "duration_sec": 0.879
+  },
+  {
+    "name": "golemMove1.wav",
+    "size": 35308,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/golemMove1.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 35264,
+    "duration_sec": 1.599
+  },
+  {
+    "name": "golemMove2.WAV",
+    "size": 43628,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/golemMove2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 43584,
+    "duration_sec": 1.977
+  },
+  {
+    "name": "golemMove4.wav",
+    "size": 8812,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/golemMove4.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 8768,
+    "duration_sec": 0.398
+  },
+  {
+    "name": "golemMove5.wav",
+    "size": 10028,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/golemMove5.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 9984,
+    "duration_sec": 0.453
+  },
+  {
+    "name": "golemPickUp.wav",
+    "size": 11948,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/golemPickUp.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 11904,
+    "duration_sec": 0.54
+  },
+  {
+    "name": "guy-1200.wav",
+    "size": 1403,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/guy-1200.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1359,
+    "duration_sec": 0.062
+  },
+  {
+    "name": "healCast.wav",
+    "size": 16905,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/healCast.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 16685,
+    "duration_sec": 0.757
+  },
+  {
+    "name": "healGet.wav",
+    "size": 9676,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/healGet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 9632,
+    "duration_sec": 0.437
+  },
+  {
+    "name": "horn.wav",
+    "size": 48960,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/horn.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 48901,
+    "duration_sec": 2.218
+  },
+  {
+    "name": "icecannonimpact-500.wav",
+    "size": 9835,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/icecannonimpact-500.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 9791,
+    "duration_sec": 0.444
+  },
+  {
+    "name": "icecannonimpact-800.wav",
+    "size": 9835,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/icecannonimpact-800.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 9791,
+    "duration_sec": 0.444
+  },
+  {
+    "name": "icecannonimpact1-800.wav",
+    "size": 9835,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/icecannonimpact1-800.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 9791,
+    "duration_sec": 0.444
+  },
+  {
+    "name": "iceCannonImpact2-800.WAV",
+    "size": 9890,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/iceCannonImpact2-800.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 9846,
+    "duration_sec": 0.447
+  },
+  {
+    "name": "iceCannonImpact3-800.wav",
+    "size": 10167,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/iceCannonImpact3-800.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 10123,
+    "duration_sec": 0.459
+  },
+  {
+    "name": "iceCannonImpact4-800.wav",
+    "size": 10320,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/iceCannonImpact4-800.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 10276,
+    "duration_sec": 0.466
+  },
+  {
+    "name": "impact.wav",
+    "size": 24684,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/impact.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 24640,
+    "duration_sec": 1.117
+  },
+  {
+    "name": "influenceIcon.wav",
+    "size": 7772,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/influenceIcon.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 7713,
+    "duration_sec": 0.35
+  },
+  {
+    "name": "invisibilityCast.wav",
+    "size": 14174,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/invisibilityCast.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 14028,
+    "duration_sec": 0.636
+  },
+  {
+    "name": "invisibilityGet.wav",
+    "size": 18540,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/invisibilityGet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 18496,
+    "duration_sec": 0.839
+  },
+  {
+    "name": "islandFall.wav",
+    "size": 35556,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/islandFall.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 35512,
+    "duration_sec": 1.611
+  },
+  {
+    "name": "islandRise.wav",
+    "size": 49676,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/islandRise.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 49617,
+    "duration_sec": 2.25
+  },
+  {
+    "name": "islandUnderAttack.wav",
+    "size": 34320,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/islandUnderAttack.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 34276,
+    "duration_sec": 1.554
+  },
+  {
+    "name": "itIsDone2.WAV",
+    "size": 22944,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/itIsDone2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 22900,
+    "duration_sec": 1.039
+  },
+  {
+    "name": "jacoblad.wav",
+    "size": 10812,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/jacoblad.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 10754,
+    "duration_sec": 0.488
+  },
+  {
+    "name": "jimbuild.wav",
+    "size": 25270,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/jimbuild.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 25134,
+    "duration_sec": 1.14
+  },
+  {
+    "name": "kickedoff.wav",
+    "size": 28268,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/kickedoff.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 28224,
+    "duration_sec": 1.28
+  },
+  {
+    "name": "manOWarBuild.wav",
+    "size": 38386,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/manOWarBuild.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 38342,
+    "duration_sec": 1.739
+  },
+  {
+    "name": "manOWarFire-500.wav",
+    "size": 64869,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/manOWarFire-500.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 64825,
+    "duration_sec": 2.94
+  },
+  {
+    "name": "moveBeetle.wav",
+    "size": 12424,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/moveBeetle.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 12365,
+    "duration_sec": 0.561
+  },
+  {
+    "name": "newchatmessage-1000.wav",
+    "size": 3344,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/newchatmessage-1000.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 3300,
+    "duration_sec": 0.15
+  },
+  {
+    "name": "newwarnmessage-1000.wav",
+    "size": 6533,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/newwarnmessage-1000.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 6489,
+    "duration_sec": 0.294
+  },
+  {
+    "name": "openGump-1000.wav",
+    "size": 5408,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/openGump-1000.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 5350,
+    "duration_sec": 0.243
+  },
+  {
+    "name": "openGump.wav",
+    "size": 5408,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/openGump.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 5350,
+    "duration_sec": 0.243
+  },
+  {
+    "name": "openSubGump.wav",
+    "size": 5076,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/openSubGump.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 5017,
+    "duration_sec": 0.228
+  },
+  {
+    "name": "ourPriestCaptured.wav",
+    "size": 34488,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/ourPriestCaptured.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 34444,
+    "duration_sec": 1.562
+  },
+  {
+    "name": "ourPriestImmobile.wav",
+    "size": 38636,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/ourPriestImmobile.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 38592,
+    "duration_sec": 1.75
+  },
+  {
+    "name": "paralysisCast.wav",
+    "size": 24921,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/paralysisCast.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 24693,
+    "duration_sec": 1.12
+  },
+  {
+    "name": "paralysisGet.wav",
+    "size": 18572,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/paralysisGet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 18528,
+    "duration_sec": 0.84
+  },
+  {
+    "name": "pointBlastCast.wav",
+    "size": 15838,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/pointBlastCast.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15618,
+    "duration_sec": 0.708
+  },
+  {
+    "name": "pointBlastGet.wav",
+    "size": 18540,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/pointBlastGet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 18496,
+    "duration_sec": 0.839
+  },
+  {
+    "name": "powerup.wav",
+    "size": 15484,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/powerup.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15426,
+    "duration_sec": 0.7
+  },
+  {
+    "name": "preparingAscend.wav",
+    "size": 27724,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/preparingAscend.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 27680,
+    "duration_sec": 1.255
+  },
+  {
+    "name": "priestDrop.wav",
+    "size": 22604,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestDrop.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 22559,
+    "duration_sec": 1.023
+  },
+  {
+    "name": "priestFall.wav",
+    "size": 17341,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestFall.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 17193,
+    "duration_sec": 0.78
+  },
+  {
+    "name": "priestForceField.wav",
+    "size": 27337,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestForceField.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 27293,
+    "duration_sec": 1.238
+  },
+  {
+    "name": "priestFree.wav",
+    "size": 18290,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestFree.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 18058,
+    "duration_sec": 0.819
+  },
+  {
+    "name": "priestmove1.wav",
+    "size": 22724,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestmove1.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 22680,
+    "duration_sec": 1.029
+  },
+  {
+    "name": "priestMove3.WAV",
+    "size": 23724,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestMove3.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 23680,
+    "duration_sec": 1.074
+  },
+  {
+    "name": "priestPickUp.wav",
+    "size": 19194,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestPickUp.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19150,
+    "duration_sec": 0.868
+  },
+  {
+    "name": "priestSacrifice2.WAV",
+    "size": 125355,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestSacrifice2.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 125311,
+    "duration_sec": 5.683
+  },
+  {
+    "name": "priestSacrifice4.WAV",
+    "size": 97993,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestSacrifice4.WAV",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 97949,
+    "duration_sec": 4.442
+  },
+  {
+    "name": "priestStruggleFade01.wav",
+    "size": 35451,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestStruggleFade01.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 35407,
+    "duration_sec": 1.606
+  },
+  {
+    "name": "priestStruggleFade02-800.wav",
+    "size": 7849,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestStruggleFade02-800.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 7695,
+    "duration_sec": 0.349
+  },
+  {
+    "name": "priestStruggleFade03.wav",
+    "size": 24774,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/priestStruggleFade03.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 24620,
+    "duration_sec": 1.117
+  },
+  {
+    "name": "rotatePiece-500.wav",
+    "size": 1152,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/rotatePiece-500.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1093,
+    "duration_sec": 0.05
+  },
+  {
+    "name": "saFired.wav",
+    "size": 15490,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/saFired.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15431,
+    "duration_sec": 0.7
+  },
+  {
+    "name": "sailDrop.wav",
+    "size": 19436,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sailDrop.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19392,
+    "duration_sec": 0.879
+  },
+  {
+    "name": "sailMove.wav",
+    "size": 15468,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sailMove.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15424,
+    "duration_sec": 0.7
+  },
+  {
+    "name": "saRachet.wav",
+    "size": 4708,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/saRachet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 4650,
+    "duration_sec": 0.211
+  },
+  {
+    "name": "saSprung.wav",
+    "size": 3714,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/saSprung.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 3656,
+    "duration_sec": 0.166
+  },
+  {
+    "name": "select.wav",
+    "size": 2340,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/select.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 2296,
+    "duration_sec": 0.104
+  },
+  {
+    "name": "selectTab.wav",
+    "size": 4708,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/selectTab.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 4650,
+    "duration_sec": 0.211
+  },
+  {
+    "name": "shortThunderCrack.wav",
+    "size": 174700,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/shortThunderCrack.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 174583,
+    "duration_sec": 7.918
+  },
+  {
+    "name": "shortZap.wav",
+    "size": 8790,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/shortZap.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 8732,
+    "duration_sec": 0.396
+  },
+  {
+    "name": "somethingCreated.wav",
+    "size": 58266,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/somethingCreated.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 58208,
+    "duration_sec": 2.64
+  },
+  {
+    "name": "spyboom.wav",
+    "size": 16046,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/spyboom.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 15990,
+    "duration_sec": 0.725
+  },
+  {
+    "name": "startStreak.wav",
+    "size": 3310,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/startStreak.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 3252,
+    "duration_sec": 0.147
+  },
+  {
+    "name": "sunCannonFire.wav",
+    "size": 27754,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonFire.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 27710,
+    "duration_sec": 1.257
+  },
+  {
+    "name": "sunCannonRaiseLower.wav",
+    "size": 10790,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 10746,
+    "duration_sec": 0.487
+  },
+  {
+    "name": "sunCannonRaiseLower1.wav",
+    "size": 1134,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower1.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1090,
+    "duration_sec": 0.049
+  },
+  {
+    "name": "sunCannonRaiseLower2.wav",
+    "size": 1360,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower2.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1316,
+    "duration_sec": 0.06
+  },
+  {
+    "name": "sunCannonRaiseLower3.wav",
+    "size": 1451,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower3.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1407,
+    "duration_sec": 0.064
+  },
+  {
+    "name": "sunCannonRaiseLower4.wav",
+    "size": 1433,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower4.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1389,
+    "duration_sec": 0.063
+  },
+  {
+    "name": "sunCannonRaiseLower5.wav",
+    "size": 1182,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower5.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1138,
+    "duration_sec": 0.052
+  },
+  {
+    "name": "sunCannonRaiseLower6.wav",
+    "size": 1434,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower6.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1390,
+    "duration_sec": 0.063
+  },
+  {
+    "name": "sunCannonRaiseLower7.wav",
+    "size": 1445,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower7.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1401,
+    "duration_sec": 0.064
+  },
+  {
+    "name": "sunCannonRaiseLower8.wav",
+    "size": 1265,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower8.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1221,
+    "duration_sec": 0.055
+  },
+  {
+    "name": "sunCannonRaiseLower9.wav",
+    "size": 1341,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunCannonRaiseLower9.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1297,
+    "duration_sec": 0.059
+  },
+  {
+    "name": "sunDiscThrowerImpact.wav",
+    "size": 11159,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerImpact.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 11115,
+    "duration_sec": 0.504
+  },
+  {
+    "name": "sunDiscThrowerRatchet01.wav",
+    "size": 1182,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet01.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1138,
+    "duration_sec": 0.052
+  },
+  {
+    "name": "sunDiscThrowerRatchet02.wav",
+    "size": 1587,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet02.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1543,
+    "duration_sec": 0.07
+  },
+  {
+    "name": "sunDiscThrowerRatchet03.wav",
+    "size": 1650,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet03.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1606,
+    "duration_sec": 0.073
+  },
+  {
+    "name": "sunDiscThrowerRatchet04.wav",
+    "size": 1470,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet04.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1426,
+    "duration_sec": 0.065
+  },
+  {
+    "name": "sunDiscThrowerRatchet05.wav",
+    "size": 1145,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet05.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1101,
+    "duration_sec": 0.05
+  },
+  {
+    "name": "sunDiscThrowerRatchet06.wav",
+    "size": 1307,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet06.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1263,
+    "duration_sec": 0.057
+  },
+  {
+    "name": "sunDiscThrowerRatchet07.wav",
+    "size": 893,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet07.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 849,
+    "duration_sec": 0.039
+  },
+  {
+    "name": "sunDiscThrowerRatchet08.wav",
+    "size": 1277,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet08.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1233,
+    "duration_sec": 0.056
+  },
+  {
+    "name": "sunDiscThrowerRatchet09.wav",
+    "size": 1449,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerRatchet09.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 1405,
+    "duration_sec": 0.064
+  },
+  {
+    "name": "sunDiscThrowerWhoosh.wav",
+    "size": 13066,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunDiscThrowerWhoosh.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 13008,
+    "duration_sec": 0.59
+  },
+  {
+    "name": "sunFenceImpact-500.wav",
+    "size": 8961,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/sunFenceImpact-500.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 8917,
+    "duration_sec": 0.404
+  },
+  {
+    "name": "teleportEffect.wav",
+    "size": 7772,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/teleportEffect.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 7713,
+    "duration_sec": 0.35
+  },
+  {
+    "name": "teleporterActive.wav",
+    "size": 13600,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/teleporterActive.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 13556,
+    "duration_sec": 0.615
+  },
+  {
+    "name": "templeascend.wav",
+    "size": 22430,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/templeascend.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 22371,
+    "duration_sec": 1.015
+  },
+  {
+    "name": "templeComplete.wav",
+    "size": 19650,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/templeComplete.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19606,
+    "duration_sec": 0.889
+  },
+  {
+    "name": "thunderCannon-1000.wav",
+    "size": 57962,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/thunderCannon-1000.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 57895,
+    "duration_sec": 2.626
+  },
+  {
+    "name": "thunderCannonGrowl.wav",
+    "size": 37766,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/thunderCannonGrowl.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 37722,
+    "duration_sec": 1.711
+  },
+  {
+    "name": "thunderCannonImpact.wav",
+    "size": 24684,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/thunderCannonImpact.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 24640,
+    "duration_sec": 1.117
+  },
+  {
+    "name": "thunderCannonRoar.wav",
+    "size": 64932,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/thunderCannonRoar.wav",
+    "channels": 1,
+    "sample_rate": 21874,
+    "sample_width": 2,
+    "frames": 32444,
+    "duration_sec": 1.483
+  },
+  {
+    "name": "thunderCrack.wav",
+    "size": 99438,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/thunderCrack.wav",
+    "channels": 1,
+    "sample_rate": 6000,
+    "sample_width": 2,
+    "frames": 49697,
+    "duration_sec": 8.283
+  },
+  {
+    "name": "ThunderQuietDistant.wav",
+    "size": 75590,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/ThunderQuietDistant.wav",
+    "channels": 1,
+    "sample_rate": 6000,
+    "sample_width": 2,
+    "frames": 37773,
+    "duration_sec": 6.295
+  },
+  {
+    "name": "treasonCast.wav",
+    "size": 22983,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/treasonCast.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 22759,
+    "duration_sec": 1.032
+  },
+  {
+    "name": "treasonGet.wav",
+    "size": 10636,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/treasonGet.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 10592,
+    "duration_sec": 0.48
+  },
+  {
+    "name": "tVortexReady.wav",
+    "size": 66092,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/tVortexReady.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 66025,
+    "duration_sec": 2.994
+  },
+  {
+    "name": "unitLost.wav",
+    "size": 19052,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/unitLost.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19008,
+    "duration_sec": 0.862
+  },
+  {
+    "name": "upgradeComplete.wav",
+    "size": 22700,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/upgradeComplete.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 22656,
+    "duration_sec": 1.027
+  },
+  {
+    "name": "upgradeDone.wav",
+    "size": 141552,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/upgradeDone.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 141493,
+    "duration_sec": 6.417
+  },
+  {
+    "name": "waterBattery.wav",
+    "size": 19684,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/waterBattery.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 19626,
+    "duration_sec": 0.89
+  },
+  {
+    "name": "whale.wav",
+    "size": 61290,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/whale.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 61231,
+    "duration_sec": 2.777
+  },
+  {
+    "name": "whirligigFire-1000.wav",
+    "size": 14104,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/whirligigFire-1000.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 14060,
+    "duration_sec": 0.638
+  },
+  {
+    "name": "whirligigFire.wav",
+    "size": 31922,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/whirligigFire.wav",
+    "channels": 1,
+    "sample_rate": 11025,
+    "sample_width": 2,
+    "frames": 15939,
+    "duration_sec": 1.446
+  },
+  {
+    "name": "whirligigSpin.wav",
+    "size": 3310,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/whirligigSpin.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 3252,
+    "duration_sec": 0.147
+  },
+  {
+    "name": "whirligigSpinSlow.wav",
+    "size": 6562,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/whirligigSpinSlow.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 6504,
+    "duration_sec": 0.295
+  },
+  {
+    "name": "windBalloonDrop.wav",
+    "size": 16364,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/windBalloonDrop.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 16320,
+    "duration_sec": 0.74
+  },
+  {
+    "name": "windBalloonMove.wav",
+    "size": 14316,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/windBalloonMove.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 14272,
+    "duration_sec": 0.647
+  },
+  {
+    "name": "windBalloonPickup.wav",
+    "size": 12076,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/windBalloonPickup.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 12032,
+    "duration_sec": 0.546
+  },
+  {
+    "name": "workshopComplete.wav",
+    "size": 26092,
+    "abs_path": "c:/Kits work/limaje de programare/9_GAMES/NetStorm-Islands-at-War_Win_EN_RIP-Version/NetStorm RIP/sound/workshopComplete.wav",
+    "channels": 1,
+    "sample_rate": 22050,
+    "sample_width": 1,
+    "frames": 26048,
+    "duration_sec": 1.181
+  }
+]

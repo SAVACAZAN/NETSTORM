@@ -1,0 +1,39 @@
+typename Mana
+
+typeflags dontSave not_real;
+{
+	zorder = "zoMANAICON";
+	foot_x = 1;
+	foot_y = 1;
+}
+
+// It goes wind, rain, thunder, sun, then lit, then empty
+// 10, 11 and 12 are blank, slot and arrow.
+A01 : default : "mana.gif" #04 ;
+A02 : : "mana.gif" #07 ;
+A03 : : "mana.gif" #06 ;
+A04 : : "mana.gif" #05 ;
+A05 : : "mana.gif" #00 ;
+A06 : : "mana.gif" #03 ;
+A07 : : "mana.gif" #02 ;
+A08 : : "mana.gif" #01 ;
+A09 : : "mana.gif" #10 ;
+A10 : : "mana.gif" #11 ;
+A11 : : "mana.gif" #12 ;
+
+A12 : : "mana.gif" #17 ;
+A13 : : "mana.gif" #20 ;
+A14 : : "mana.gif" #19 ;
+A15 : : "mana.gif" #18;
+A16 : : "mana.gif" #13 ;
+A17 : : "mana.gif" #16 ;
+A18 : : "mana.gif" #15 ;
+A19 : : "mana.gif" #14 ;
+A20 : : "mana.gif" #11 ;
+A21 : : "mana.gif" #11 ;
+A22 : : "mana.gif" #12 ;
+
+B01 : : "mana.gif" #08 ;
+B02 : : "mana.gif" #09 ;
+
+C01 : : "mana.gif" #22 ;

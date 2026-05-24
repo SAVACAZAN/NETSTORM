@@ -46,10 +46,10 @@ tests/differential/recordings/*.nsrec
 Thumbs.db
 
 # Generated/extracted assets (regenerable via extract_assets.py)
-extracted/
+# extracted/   <-- now included for ease of browsing (HTML catalogs + sprite PNGs + maps)
 
-# Junction (Windows symlink to game files)
-netstorm/
+# Junction (Windows symlink to game files) — root level only, NOT src/netstorm
+/netstorm/
 
 # Backups
 *.bak
